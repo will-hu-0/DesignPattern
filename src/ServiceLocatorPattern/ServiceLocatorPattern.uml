@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ServiceLocatorPattern</OriginalElement>
+  <nodes>
+    <node x="142.0" y="184.0">ServiceLocatorPattern.Service1</node>
+    <node x="-11.0" y="305.0">ServiceLocatorPattern.Cache</node>
+    <node x="343.0" y="121.0">ServiceLocatorPattern.Service2</node>
+    <node x="347.0" y="303.0">ServiceLocatorPattern.IService</node>
+    <node x="1.0" y="92.0">ServiceLocatorPattern.ServiceLocator</node>
+    <node x="-236.0" y="188.0">ServiceLocatorPattern.ServiceLocatorPatternDemo</node>
+    <node x="171.0" y="0.0">ServiceLocatorPattern.InitialContext</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ServiceLocatorPattern.InitialContext" target="ServiceLocatorPattern.Service1">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ServiceLocatorPattern.ServiceLocator" target="ServiceLocatorPattern.Cache">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ServiceLocatorPattern.InitialContext" target="ServiceLocatorPattern.Service2">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ServiceLocatorPattern.Service2" target="ServiceLocatorPattern.IService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ServiceLocatorPattern.Service1" target="ServiceLocatorPattern.IService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ServiceLocatorPattern.ServiceLocator" target="ServiceLocatorPattern.InitialContext">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="ServiceLocatorPattern.Cache" target="ServiceLocatorPattern.IService">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="143.0" y="218.5" />
+  <SelectedNodes>
+    <node>ServiceLocatorPattern.Cache</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
