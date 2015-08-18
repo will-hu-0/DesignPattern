@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>InterceptingFilterPattern</OriginalElement>
+  <nodes>
+    <node x="-40.0" y="25.0">InterceptingFilterPattern.DebugFilter</node>
+    <node x="38.0" y="306.0">InterceptingFilterPattern.Target</node>
+    <node x="60.0" y="121.0">InterceptingFilterPattern.Client</node>
+    <node x="-138.5" y="-76.0">InterceptingFilterPattern.IFilter</node>
+    <node x="-237.0" y="121.0">InterceptingFilterPattern.FilterChain</node>
+    <node x="-237.0" y="306.0">InterceptingFilterPattern.FilterManager</node>
+    <node x="-237.0" y="25.0">InterceptingFilterPattern.AuthenticationFilter</node>
+    <node x="0.0" y="523.0">InterceptingFilterPattern.InterceptingFilterDemo</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="InterceptingFilterPattern.DebugFilter" target="InterceptingFilterPattern.IFilter">
+      <point x="0.0" y="-25.5" />
+      <point x="48.5" y="0.0" />
+      <point x="-5.75" y="0.0" />
+      <point x="44.25" y="25.5" />
+    </edge>
+    <edge source="InterceptingFilterPattern.AuthenticationFilter" target="InterceptingFilterPattern.IFilter">
+      <point x="0.0" y="-25.5" />
+      <point x="-148.5" y="0.0" />
+      <point x="-94.25" y="0.0" />
+      <point x="-44.25" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="141.0" y="165.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
