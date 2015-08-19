@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>FactoryMethodPattern</OriginalElement>
+  <nodes>
+    <node x="84.0" y="0.0">FactoryMethodPattern.ICarFactory</node>
+    <node x="71.0" y="197.0">FactoryMethodPattern.ICar</node>
+    <node x="0.0" y="394.0">FactoryMethodPattern.FactoryMethodPatternDemo</node>
+    <node x="142.0" y="298.0">FactoryMethodPattern.BUICK</node>
+    <node x="0.0" y="298.0">FactoryMethodPattern.BMW</node>
+    <node x="168.0" y="101.0">FactoryMethodPattern.BMWFactory</node>
+    <node x="0.0" y="101.0">FactoryMethodPattern.BUICKFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="FactoryMethodPattern.BUICK" target="FactoryMethodPattern.ICar">
+      <point x="0.0" y="-25.5" />
+      <point x="203.0" y="273.0" />
+      <point x="162.5" y="273.0" />
+      <point x="30.5" y="25.5" />
+    </edge>
+    <edge source="FactoryMethodPattern.BMW" target="FactoryMethodPattern.ICar">
+      <point x="0.0" y="-25.5" />
+      <point x="61.0" y="273.0" />
+      <point x="101.5" y="273.0" />
+      <point x="-30.5" y="25.5" />
+    </edge>
+    <edge source="FactoryMethodPattern.BMWFactory" target="FactoryMethodPattern.ICarFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="242.0" y="76.0" />
+      <point x="195.0" y="76.0" />
+      <point x="37.0" y="25.5" />
+    </edge>
+    <edge source="FactoryMethodPattern.BUICKFactory" target="FactoryMethodPattern.ICarFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="74.0" y="76.0" />
+      <point x="121.0" y="76.0" />
+      <point x="-37.0" y="25.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="121.0" y="167.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
