@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>VisitorPattern.Element</OriginalElement>
+  <nodes>
+    <node x="52.5" y="0.0">VisitorPattern.Element</node>
+    <node x="0.0" y="395.0">VisitorPattern.Employees</node>
+    <node x="98.5" y="242.0">VisitorPattern.Visitor</node>
+    <node x="0.0" y="79.0">VisitorPattern.Employee</node>
+    <node x="0.0" y="321.0">VisitorPattern.VacationVisitor</node>
+    <node x="147.0" y="321.0">VisitorPattern.IncomeVisitor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="VisitorPattern.Employee" target="VisitorPattern.Element">
+      <point x="0.0" y="-59.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="VisitorPattern.IncomeVisitor" target="VisitorPattern.Visitor">
+      <point x="0.0" y="-14.5" />
+      <point x="206.5" y="296.0" />
+      <point x="153.25" y="296.0" />
+      <point x="18.25" y="14.5" />
+    </edge>
+    <edge source="VisitorPattern.VacationVisitor" target="VisitorPattern.Visitor">
+      <point x="0.0" y="-14.5" />
+      <point x="63.5" y="296.0" />
+      <point x="116.75" y="296.0" />
+      <point x="-18.25" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="133.0" y="223.0" />
+  <SelectedNodes>
+    <node>VisitorPattern.Element</node>
+    <node>VisitorPattern.Employees</node>
+    <node>VisitorPattern.Visitor</node>
+    <node>VisitorPattern.Employee</node>
+    <node>VisitorPattern.VacationVisitor</node>
+    <node>VisitorPattern.IncomeVisitor</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
