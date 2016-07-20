@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AbstractFactoryPattern.AbstractFactoryPatternDemo</OriginalElement>
+  <nodes>
+    <node x="330.0" y="-122.0">AbstractFactoryPattern.ComputerAbstractFactory</node>
+    <node x="453.0" y="-21.0">AbstractFactoryPattern.ServerFactory</node>
+    <node x="-158.5" y="-143.0">AbstractFactoryPattern.Computer</node>
+    <node x="-43.0" y="25.0">AbstractFactoryPattern.Laptop</node>
+    <node x="209.0" y="65.0">AbstractFactoryPattern.ComputerFactory</node>
+    <node x="-221.0" y="25.0">AbstractFactoryPattern.Server</node>
+    <node x="207.0" y="-21.0">AbstractFactoryPattern.LaptopFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="AbstractFactoryPattern.ServerFactory" target="AbstractFactoryPattern.ComputerAbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="566.0" y="-46.0" />
+      <point x="499.5" y="-46.0" />
+      <point x="56.5" y="25.5" />
+    </edge>
+    <edge source="AbstractFactoryPattern.Laptop" target="AbstractFactoryPattern.Computer">
+      <point x="0.0" y="-47.5" />
+      <point x="36.0" y="0.0" />
+      <point x="-0.25" y="0.0" />
+      <point x="52.75" y="59.0" />
+    </edge>
+    <edge source="AbstractFactoryPattern.LaptopFactory" target="AbstractFactoryPattern.ComputerAbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="320.0" y="-46.0" />
+      <point x="386.5" y="-46.0" />
+      <point x="-56.5" y="25.5" />
+    </edge>
+    <edge source="AbstractFactoryPattern.Server" target="AbstractFactoryPattern.Computer">
+      <point x="0.0" y="-47.5" />
+      <point x="-142.0" y="0.0" />
+      <point x="-105.75" y="0.0" />
+      <point x="-52.75" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="341.0" y="27.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
