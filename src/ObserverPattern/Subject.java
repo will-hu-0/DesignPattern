@@ -5,6 +5,8 @@ import java.util.List;
 
 /**
  * Created by will on 7/18/16.
+ * 定义了一个Subject对应多个观察者（Observers）的关系。
+ * 一旦Subject有了变化，会通知所有的Observers.
  */
 public abstract class Subject {
 
