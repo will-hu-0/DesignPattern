@@ -18,7 +18,7 @@ public class FilterChain {
         for( IFilter filter : filters) {
             filter.execute(request);
         }
-        target.execute(request);
+        target.execute2(request);
     }
 
     public void setTarget(Target target) {
